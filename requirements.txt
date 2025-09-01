@@ -1,0 +1,7 @@
+openai>=1.30.0,<2
+chromadb>=0.5,<1
+python-dotenv>=1.0
+streamlit>=1.34
+pyttsx3>=2.90
+rich>=13.7
+pydantic>=2.6
