@@ -1,4 +1,3 @@
-# toate comentariile sunt in romana, fara diacritice si cu litere mici
 import pyttsx3
 from pathlib import Path
 from datetime import datetime
