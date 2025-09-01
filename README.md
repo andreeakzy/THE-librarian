@@ -1,6 +1,6 @@
 # THE librarian
 
-acest proiect implementeaza un chatbot care recomanda carti în doi pași. Folosește RAG: transforma întrebarea utilizatorului in embeddings OpenAI și caută cele mai relevante descrieri în baza locala ChromaDB. Apoi selecteaza o singura carte și apelează tool-ul get_summary_by_title, care furnizeaza un rezumat detaliat al titlului ales, pe care il inserează in raspunsul final
+acest proiect implementeaza un chatbot care recomanda carti in 2 pasi. Folosește RAG: transforma întrebarea utilizatorului in embeddings OpenAI și caută cele mai relevante descrieri în baza locala ChromaDB. Apoi selecteaza o singura carte și apelează tool-ul get_summary_by_title, care furnizeaza un rezumat detaliat al titlului ales, pe care il inserează in raspunsul final
 
 Proiectul include:
 - interfata CLI simplă (`chatbot_cli.py`)
