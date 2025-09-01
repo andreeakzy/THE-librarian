@@ -1,4 +1,4 @@
-# smart-librarian
+# THE librarian
 
 acest proiect implementeaza un chatbot care recomanda carti în doi pași. Folosește RAG: transforma întrebarea utilizatorului in embeddings OpenAI și caută cele mai relevante descrieri în baza locala ChromaDB. Apoi selecteaza o singura carte și apelează tool-ul get_summary_by_title, care furnizeaza un rezumat detaliat al titlului ales, pe care il inserează in raspunsul final
 
@@ -9,7 +9,7 @@ Proiectul include:
 
 ---
 
-## Functionalitati
+## functionalitati
 - baza de date cu peste 10 cărți (`data/book_summaries.md` și `data/book_summaries.json`)
 - incarcare în chromadb cu embeddings OpenAI (`app/rag_init.py`)
 - retriever semantic pentru recomandări
